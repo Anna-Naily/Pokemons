@@ -94,6 +94,7 @@ export default {
     };
   },
   methods: {
+    // Загрузка карточки покемона с его параметрами
     getPokemon() {
       let request = new Request(this.url + this.id);
       fetch(request)
@@ -119,7 +120,7 @@ export default {
           console.log(err);
         });
     },
-    //выводит описание абилки на англ. языке
+    // Выводит описание абилки на англ. языке
     getDiscriptionAbility(url) {
       let request = new Request(url);
       fetch(request)
@@ -138,6 +139,7 @@ export default {
           console.log(err);
         });
     },
+    // Выводит гендер покемона
     getGender(pokeName) {
       let request = new Request(this.genderUrl);
       fetch(request)
@@ -163,6 +165,7 @@ export default {
           console.log(err);
         });
     },
+    // Выводит среду обитания покемона
     getHabitat(pokeName) {
       let request = new Request(this.habitatUrl);
       fetch(request)

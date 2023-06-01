@@ -51,6 +51,7 @@ export default {
   },
 
   methods: {
+    // Загрузка основного массива с покеманоми с API
     fetchData() {
       let request = new Request(this.url);
       fetch(request)
@@ -66,6 +67,7 @@ export default {
           console.log(err);
         });
     },
+    // Загрузка самого покемона с id
     fetchPokemon(url) {
       let request = new Request(url);
       fetch(request)
@@ -88,6 +90,7 @@ export default {
   },
 
   computed: {
+    //Реактивный поиск по покемонам
     searchHandler() {
       return this.pokemons.filter((pokemon) => {
         return pokemon.name
