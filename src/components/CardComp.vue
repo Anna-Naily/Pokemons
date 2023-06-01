@@ -234,10 +234,10 @@ export default {
     padding: 15px 30px;
     font-size: 20px;
     color: #9494e4;
+    font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.2s;
-    width: 170px;
     &:hover {
       transform: scale(1.1);
     }
