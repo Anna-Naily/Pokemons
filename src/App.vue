@@ -21,6 +21,7 @@ export default {
 #app {
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif !important;
+  overflow-x: hidden;
 }
 </style>
 
