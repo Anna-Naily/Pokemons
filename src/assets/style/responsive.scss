@@ -1,0 +1,60 @@
+@media screen and (min-width: 1280px) and (max-width: 1440px){
+    .wrapper {
+        max-width: 1200px !important;
+      }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .wrapper {
+        max-width: 750px !important;
+      }
+      .left-bar__img{
+        width: 300px !important;
+      }
+      .params-name{
+        font-size: 16px !important;
+      }
+      .params-value{
+        font-size: 16px !important;
+        font-weight: 600 !important;
+      }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .wrapper {
+        max-width: 500px !important;
+      }
+      .header{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        .header__search{
+            margin: 20px 0px 10px 0px !important;
+        }
+      }
+    .content__list{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+      .card-block{
+        display: flex;
+        flex-direction: column !important;
+      }
+      .left-bar{
+        margin-bottom: 50px !important;
+        .left-bar__img{
+        width: 200px !important;
+      }
+      }
+      
+      .params-name{
+        font-size: 14px !important;
+      }
+      .params-value{
+        font-size: 14px !important;
+        font-weight: 600 !important;
+      }
+}
+
